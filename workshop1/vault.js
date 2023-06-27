@@ -1,8 +1,5 @@
 // Combo: 10 - 40 - 39
 
-
-//
-
 // Assign 3 variables
 let comb1 = 5 * 2;
 let comb2 = 4 * comb1;
