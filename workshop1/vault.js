@@ -9,5 +9,5 @@ let comb3 = comb2 - 1;
 let message = 'You have received this message because you have been chosen to open an important vault. Here is the secret combination:'
 
 // create a dialogue box displaying the vault codes and the text using the HTML tags and the string.
-alert(message +`${comb1} - ${comb2} - ${comb3}`);
+alert(message +` ${comb1} - ${comb2} - ${comb3}`);
 
