@@ -1,13 +1,20 @@
+let num1;
+let num2;
+let num3;
+
 let yourName = prompt('Please enter your name.');
 
-let num1 = parseInt(prompt('Give us your first number.'));
-// do {
-//     num1 = prompt('Please give us a NUMBER...');
-// } while(isNaN(num1) !== 'number');
-alert(typeof(num1))
-let num2 = prompt('Give us your second number.');
+do {
+    num1 = parseInt(prompt('Give us your first number.'));
+} while(isNaN(num1));
 
-let num3 = prompt('Give us your third number.');
+do {
+    num2 = parseInt(prompt('Give us your second number.'));
+} while(isNaN(num2));
+
+do {
+    num3 = parseInt(prompt('Give us your third number.'));
+} while(isNaN(num3));
 
 alert(`Thank you ${yourName}. Your combination is ${num1}-${num2}-${num3}.`);
 
