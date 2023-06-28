@@ -8,15 +8,33 @@ let yourName = prompt('Please enter your name.');
 
 // do while loop used to make sure num1 is a number before leaving, when num1 is a string, it keeps on going. This was repeated with num2 & num3.
 do {
+
     num1 = parseInt(prompt('Give us your first number.'));
+
+    if(isNaN(num1)){
+        alert('Invalid Number. Please Try Again.');
+    } 
+
 } while(isNaN(num1));
 
 do {
+
     num2 = parseInt(prompt('Give us your second number.'));
+
+    if(isNaN(num2)){
+        alert('Invalid Number. Please Try Again.')
+    }
+
 } while(isNaN(num2));
 
 do {
+
     num3 = parseInt(prompt('Give us your third number.'));
+
+    if(isNaN(num3)){
+        alert('Invalid Number. Please Try Again.')
+    }
+
 } while(isNaN(num3));
 
 // Done with backticks for cleaner code.
